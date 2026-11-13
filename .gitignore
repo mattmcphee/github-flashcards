@@ -1,0 +1,15 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor temporary files
+*.swp
+*.swo
+*~
+
+# Local Anki collection databases and SQLite sidecar files
+*.anki2
+*.anki2-*
+*.anki21
+*.anki21-*
