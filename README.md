@@ -10,7 +10,7 @@ A study collection covering CI/CD, GitHub Actions, Azure DevOps, and related ent
 | [learning-objectives/](learning-objectives/README.md) | Indexed learning objectives with stable IDs for flashcard references. |
 | [flashcards/](flashcards/) | Anki flashcard source files, supporting media, and exported decks. |
 
-The learning objectives cover every topic bullet in the map. The flashcards folder starts empty, with a `.gitkeep` file to preserve it in Git.
+The learning objectives cover every topic bullet in the map. All 665 objectives are represented by 710 flashcards in 32 batches of 20 to 30 cards. See the [Anki import instructions and batch index](flashcards/README.md).
 
 ## Adding study material
 

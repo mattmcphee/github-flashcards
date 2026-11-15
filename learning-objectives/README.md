@@ -62,7 +62,7 @@ This example links the comparison of pull request event security with identifyin
 - If an Anki note generates several cards, ensure the references are valid for each generated card. Split the note or record a card-specific mapping in the editable source when the cards assess different objectives.
 - Before export, check that every card has references and that every referenced ID exists and is active.
 
-The full field order, note type, and import settings will be documented when the first flashcard format is introduced.
+The full field order, note type, and import settings are documented in the [flashcard import guide](../flashcards/README.md).
 
 ## Sources and changing product behaviour
 
