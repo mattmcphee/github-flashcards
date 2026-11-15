@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-12.01.001.01	How does declarative IaC differ from imperative infrastructure scripting?	Declarative code describes desired resources; imperative code specifies operations to perform, often with more explicit sequencing.	LO-12.01.001	<a href="https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview">Source 1</a>	2026-11-16	cicd section::12 objective::LO-12.01.001 batch::12-01
 FC-12.01.002.01	What happens when an IaC tool compares desired configuration with observed resources?	It determines differences and proposes or performs supported changes to approach the declared state.	LO-12.01.002	<a href="https://developer.hashicorp.com/terraform/cli/commands/plan">Source 1</a>	2026-11-16	cicd section::12 objective::LO-12.01.002 batch::12-01
 FC-12.01.003.01	Does all infrastructure drift imply an attacker?	No. It can result from authorised manual work, automation or unexpected changes; classify it before choosing remediation.	LO-12.01.003	<a href="https://developer.hashicorp.com/terraform/cli/commands/plan">Source 1</a>	2026-11-16	cicd section::12 objective::LO-12.01.003 batch::12-01

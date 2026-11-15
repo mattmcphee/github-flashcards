@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-08.01.001.01	Where can a software supply-chain attacker intervene besides application source?	Dependency publication, build infrastructure, signing systems, artifact storage and distribution.	LO-08.01.001	<a href="https://slsa.dev/spec/v1.2/threats-overview">Source 1</a>	2026-11-16	cicd section::08 objective::LO-08.01.001 batch::08-01
 FC-08.01.002.01	Which controls protect source integrity before release?	Restricted write access, required review and validation, protected references and traceable approved revisions.	LO-08.01.002	<a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches">Source 1</a>	2026-11-16	cicd section::08 objective::LO-08.01.002 batch::08-01
 FC-08.01.003.01	How can dependency integrity be checked before use?	Resolve from approved sources and verify expected versions, hashes and available signatures or provenance.	LO-08.01.003	<a href="https://learn.microsoft.com/en-us/nuget/consume-packages/package-source-mapping">Source 1</a><br><a href="https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json/">Source 2</a>	2026-11-16	cicd section::08 objective::LO-08.01.003 batch::08-01

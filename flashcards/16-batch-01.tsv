@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-16.01.001.01	What should a multi-organisation GitHub design centralise and delegate?	Centralise mandatory enterprise controls; delegate organisation/repository operations with explicit ownership and constrained shared automation.	LO-16.01.001	<a href="https://docs.github.com/en/enterprise-cloud@latest/admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise">Source 1</a>	2026-11-16	cicd section::16 objective::LO-16.01.001 batch::16-01
 FC-16.01.002.01	How can Azure projects share platform services without sharing unrestricted delivery authority?	Use common governed templates while keeping scoped identities, resource permissions and suitable agent isolation per project.	LO-16.01.002	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/access-tokens?view=azure-devops">Source 1</a><br><a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/security/overview?view=azure-devops">Source 2</a>	2026-11-16	cicd section::16 objective::LO-16.01.002 batch::16-01
 FC-16.01.003.01	What should a shared CI/CD platform team own?	Supported execution infrastructure, reusable components, baseline controls, service reliability and documented support boundaries.	LO-16.01.003	<a href="https://dora.dev/capabilities/platform-engineering/">Source 1</a>	2026-11-16	cicd section::16 objective::LO-16.01.003 batch::16-01

@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-16.03.006.01	How should a shared workflow update roll out across a repository fleet?	Pilot on representative consumers, validate outcomes, expand in batches and keep a tested rollback reference.	LO-16.03.006	<a href="https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows">Source 1</a>	2026-11-16	cicd section::16 objective::LO-16.03.006 batch::16-02
 FC-16.03.007.01	What makes fleet security reporting useful for remediation?	Prioritised findings mapped to affected services, exposure, owners and actionable remediation status.	LO-16.03.007	<a href="https://docs.github.com/en/code-security/concepts/security-at-scale/about-security-campaigns">Source 1</a>	2026-11-16	cicd section::16 objective::LO-16.03.007 batch::16-02
 FC-16.03.008.01	Which delivery cost drivers should be measured before optimisation?	Execution time and runner class, queue/capacity choices, storage retention, network use and maintenance effort.	LO-16.03.008	<a href="https://docs.github.com/en/billing/concepts/product-billing/github-actions">Source 1</a>	2026-11-16	cicd section::16 objective::LO-16.03.008 batch::16-02

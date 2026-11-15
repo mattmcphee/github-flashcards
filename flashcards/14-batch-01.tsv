@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-14.01.001.01	Which metrics help explain slow developer feedback from CI?	Queue wait, execution duration and failure/retry rates, separated by relevant pipeline and workload.	LO-14.01.001	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/reports/pipelinereport?view=azure-devops">Source 1</a>	2026-11-16	cicd section::14 objective::LO-14.01.001 batch::14-01
 FC-14.01.002.01	Of 80 completed builds, 72 succeed and 8 fail. What are success and failure rates?	90% success and 10% failure, using those 80 completed builds as the denominator.	LO-14.01.002	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/reports/pipelinereport?view=azure-devops">Source 1</a>	2026-11-16	cicd section::14 objective::LO-14.01.002 batch::14-01
 FC-14.01.003.01	A job waits 8 minutes and runs for 4. What is execution duration versus elapsed time?	Execution is 4 minutes; queue-plus-execution elapsed time is 12 minutes.	LO-14.01.003	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/reports/pipelinereport?view=azure-devops">Source 1</a>	2026-11-16	cicd section::14 objective::LO-14.01.003 batch::14-01

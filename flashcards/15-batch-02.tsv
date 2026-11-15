@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-15.03.006.01	Which IDE integrations provide useful early pipeline feedback?	Language/type diagnostics, linters and schema-aware YAML validation close to the edited code.	LO-15.03.006	<a href="https://learn.microsoft.com/en-us/powershell/utility-modules/psscriptanalyzer/overview?view=ps-modules">Source 1</a><br><a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html">Source 2</a>	2026-11-16	cicd section::15 objective::LO-15.03.006 batch::15-02
 FC-15.03.007.01	Which automated quality fixes still need semantic review?	Changes that alter control flow, APIs, dependencies or behaviour, even when suggested as an automatic fix.	LO-15.03.007	<a href="https://docs.github.com/en/copilot/responsible-use/agents">Source 1</a>	2026-11-16	cicd section::15 objective::LO-15.03.007 batch::15-02
 FC-15.03.008.01	How can repeated pipeline maintenance be reduced without creating opaque complexity?	Centralise stable repeated logic with clear contracts, supported versions and discoverable diagnostics.	LO-15.03.008	<a href="https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows">Source 1</a>	2026-11-16	cicd section::15 objective::LO-15.03.008 batch::15-02

@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-15.01.001.01	What does treating an internal delivery platform as a product change?	Teams research developer needs, define supported capabilities and improve usability and reliability with user feedback.	LO-15.01.001	<a href="https://dora.dev/capabilities/platform-engineering/">Source 1</a>	2026-11-16	cicd section::15 objective::LO-15.01.001 batch::15-01
 FC-15.01.002.01	What is a golden path in platform engineering?	A supported, documented route for common delivery work, with sensible defaults and clear extension or exception boundaries.	LO-15.01.002	<a href="https://dora.dev/capabilities/platform-engineering/">Source 1</a>	2026-11-16	cicd section::15 objective::LO-15.01.002 batch::15-01
 FC-15.01.003.01	What should a standard service template provide?	Required project structure, validated build/test defaults, ownership information and supported deployment/security integration.	LO-15.01.003	<a href="https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations">Source 1</a>	2026-11-16	cicd section::15 objective::LO-15.01.003 batch::15-01

@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-14.04.001.01	Why might a GitHub scheduled workflow exist in a branch but never run?	Scheduled workflows must be on the default branch; also inspect schedule validity and enabled state.	LO-14.04.001	<a href="https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows">Source 1</a>	2026-11-16	cicd section::14 objective::LO-14.04.001 batch::14-02
 FC-14.04.002.01	Why can a GitHub required check remain pending after path-filtered CI is skipped?	The workflow may never report the expected check. Align trigger coverage and required checks for all merge paths.	LO-14.04.002	<a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches">Source 1</a><br><a href="https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax">Source 2</a>	2026-11-16	cicd section::14 objective::LO-14.04.002 batch::14-02
 FC-14.04.003.01	How can insufficient GITHUB_TOKEN permissions be diagnosed safely?	Identify the failing API operation and effective job permissions, then compare its required capability and event restrictions.	LO-14.04.003	<a href="https://docs.github.com/en/actions/how-tos/security-for-github-actions/security-guides/automatic-token-authentication">Source 1</a>	2026-11-16	cicd section::14 objective::LO-14.04.003 batch::14-02

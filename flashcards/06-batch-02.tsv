@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-06.03.004.01	How does credential rotation differ from revocation?	Rotation replaces a credential and transitions consumers; revocation invalidates an existing credential to stop further use.	LO-06.03.004	<a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access">Source 1</a>	2026-11-16	cicd section::06 objective::LO-06.03.004 batch::06-02
 FC-06.03.004.02	After a production secret leaks, why is merely deleting the log insufficient?	Copies may exist; invalidate the exposed credential, investigate its use and replace it where still needed.	LO-06.03.004	<a href="https://docs.github.com/en/actions/reference/security/secure-use">Source 1</a>	2026-11-16	cicd section::06 objective::LO-06.03.004 batch::06-02
 FC-06.03.005.01	Name two indirect ways a pipeline can leak a secret.	A diagnostic dump can print it, or a packaged configuration file can persist it in an artifact.	LO-06.03.005	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/set-secret-variables?view=azure-devops">Source 1</a>	2026-11-16	cicd section::06 objective::LO-06.03.005 batch::06-02

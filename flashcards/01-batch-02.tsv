@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-01.03.001.01	Why promote one artifact from test to production rather than rebuild it?	Production receives the tested bytes; rebuilding can introduce different dependencies or build inputs.	LO-01.03.001	<a href="https://reproducible-builds.org/docs/definition/">Source 1</a><br><a href="https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments">Source 2</a>	2026-11-16	cicd section::01 objective::LO-01.03.001 batch::01-02
 FC-01.03.002.01	Does replacing the bytes behind an existing release version preserve artifact immutability?	No. Publish a new version or digest instead of changing the content identified by the old release.	LO-01.03.002	<a href="https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments">Source 1</a>	2026-11-16	cicd section::01 objective::LO-01.03.002 batch::01-02
 FC-01.03.002.02	Why identify a promoted artifact by digest as well as a friendly version?	The digest identifies content and helps detect substitution; a mutable name alone does not.	LO-01.03.002	<a href="https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments">Source 1</a>	2026-11-16	cicd section::01 objective::LO-01.03.002 batch::01-02

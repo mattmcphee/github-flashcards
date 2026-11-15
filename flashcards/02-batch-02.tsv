@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-02.02.006.02	What maintenance obligation do feature flags introduce?	Track ownership and remove obsolete flags and code paths after rollout; otherwise they accumulate behavioural combinations and debt.	LO-02.02.006	<a href="https://dora.dev/capabilities/continuous-delivery/">Source 1</a>	2026-11-16	cicd section::02 objective::LO-02.02.006 batch::02-02
 FC-02.02.007.01	What branching approach usually supports high-frequency deployment?	Frequent integration through short-lived branches or direct mainline work, with automated checks and a releasable mainline.	LO-02.02.007	<a href="https://dora.dev/capabilities/trunk-based-development/">Source 1</a>	2026-11-16	cicd section::02 objective::LO-02.02.007 batch::02-02
 FC-02.03.001.01	For a high-risk pipeline change, what should review requirements emphasise besides approval count?	Relevant independent expertise, ownership review and protection against bypass or stale approvals.	LO-02.03.001	<a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches">Source 1</a>	2026-11-16	cicd section::02 objective::LO-02.03.001 batch::02-02

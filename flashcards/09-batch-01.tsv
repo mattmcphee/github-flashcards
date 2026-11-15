@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-09.01.001.01	What is a suitable unit-test boundary for a price-calculation function?	Known inputs and observable outputs, isolating unrelated external services and mutable state.	LO-09.01.001	<a href="https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices">Source 1</a>	2026-11-16	cicd section::09 objective::LO-09.01.001 batch::09-01
 FC-09.01.002.01	Which test checks that a repository layer works with the actual database schema?	An integration test exercising the real interaction with a controlled database.	LO-09.01.002	<a href="https://dora.dev/capabilities/test-automation/">Source 1</a>	2026-11-16	cicd section::09 objective::LO-09.01.002 batch::09-01
 FC-09.01.003.01	What should an end-to-end checkout test demonstrate?	A representative user can complete the purchase journey through the integrated system and observe the expected outcome.	LO-09.01.003	<a href="https://dora.dev/capabilities/test-automation/">Source 1</a>	2026-11-16	cicd section::09 objective::LO-09.01.003 batch::09-01

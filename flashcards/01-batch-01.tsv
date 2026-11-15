@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-01.01.001.01	What does continuous integration require beyond having an automated build?	Frequent integration into a shared mainline, with automated checks and prompt repair of failures.	LO-01.01.001	<a href="https://dora.dev/capabilities/trunk-based-development/">Source 1</a><br><a href="https://dora.dev/capabilities/continuous-delivery/">Source 2</a>	2026-11-16	cicd section::01 objective::LO-01.01.001 batch::01-01
 FC-01.01.001.02	What distinguishes continuous delivery from continuous deployment?	Delivery keeps changes releasable on demand; deployment automatically releases qualifying changes to production without a per-release human decision.	LO-01.01.001	<a href="https://dora.dev/capabilities/continuous-delivery/">Source 1</a>	2026-11-16	cicd section::01 objective::LO-01.01.001 batch::01-01
 FC-01.01.002.01	Why does a CI/CD pipeline not cover all release management?	Release management also coordinates readiness, communication, business timing and accountability beyond build and deployment automation.	LO-01.01.002	<a href="https://dora.dev/capabilities/continuous-delivery/">Source 1</a>	2026-11-16	cicd section::01 objective::LO-01.01.002 batch::01-01

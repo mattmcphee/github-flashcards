@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-12.03.004.02	Why is force-unlocking Terraform state unsafe while another apply is active?	It can permit competing writers and inconsistent state; first establish that the lock is genuinely abandoned.	LO-12.03.004	<a href="https://developer.hashicorp.com/terraform/language/state/locking">Source 1</a>	2026-11-16	cicd section::12 objective::LO-12.03.004 batch::12-02
 FC-12.03.005.01	Does marking a Terraform value sensitive guarantee it is absent from state?	No. It primarily controls display; stored state and saved plans still need protection unless a supported ephemeral mechanism avoids persistence.	LO-12.03.005	<a href="https://developer.hashicorp.com/terraform/language/state/sensitive-data">Source 1</a>	2026-11-16	cicd section::12 objective::LO-12.03.005 batch::12-02
 FC-12.03.006.01	What should a production IaC approval be bound to?	The reviewed change and target, with protections against substituting a different plan or configuration after approval.	LO-12.03.006	<a href="https://developer.hashicorp.com/terraform/cli/commands/plan">Source 1</a><br><a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/approvals?view=azure-devops">Source 2</a>	2026-11-16	cicd section::12 objective::LO-12.03.006 batch::12-02

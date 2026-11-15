@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-10.03.006.01	Which provenance evidence helps assess a package's origin?	An expected publisher or builder identity tied to its source revision, build process and artifact digest.	LO-10.03.006	<a href="https://slsa.dev/spec/v1.2/build-provenance">Source 1</a>	2026-11-16	cicd section::10 objective::LO-10.03.006 batch::10-02
 FC-10.03.007.01	How should vulnerable dependencies be prioritised for remediation?	Assess affected versions, exploitability and exposure, then test a fixed version or a documented mitigation.	LO-10.03.007	<a href="https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts">Source 1</a>	2026-11-16	cicd section::10 objective::LO-10.03.007 batch::10-02
 FC-10.04.001.01	Under SemVer 2.0.0 for a stable public API, which increment marks a backward-incompatible change?	Major, resetting minor and patch to zero.	LO-10.04.001	<a href="https://semver.org/">Source 1</a>	2026-11-16	cicd section::10 objective::LO-10.04.001 batch::10-02

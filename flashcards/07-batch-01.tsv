@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-07.01.001.01	Should code from a familiar repository automatically be treated as trusted?	No. Trust depends on who can modify the executed revision and dependencies, and which reviews and controls protect it.	LO-07.01.001	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/security/overview?view=azure-devops">Source 1</a>	2026-11-16	cicd section::07 objective::LO-07.01.001 batch::07-01
 FC-07.01.002.01	What threat-model question matters more than the hosted or self-hosted label?	What authority, network access and residual state attacker-controlled job code could reach.	LO-07.01.002	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/security/overview?view=azure-devops">Source 1</a>	2026-11-16	cicd section::07 objective::LO-07.01.002 batch::07-01
 FC-07.01.003.01	How does a persistent runner increase cross-job risk?	Malicious files, processes or configuration from one job can survive into another job.	LO-07.01.003	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/security/overview?view=azure-devops">Source 1</a>	2026-11-16	cicd section::07 objective::LO-07.01.003 batch::07-01

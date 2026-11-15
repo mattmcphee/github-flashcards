@@ -29,7 +29,7 @@ Set its back template to:
 <small>{{LearningObjectiveIds}}<br>{{Sources}}<br>Checked: {{VerifiedOn}}</small>
 ```
 
-Import each `.tsv` using **File > Import** in Anki desktop. Select the note type above, a destination deck, **Tab** as the separator and **Allow HTML in fields**. Map columns 1 to 6 to the fields above, and column 7 to **Tags**. Metadata headers declare these settings but do not create the note type. Check the import preview before importing.
+Import each `.tsv` using **File > Import** in Anki desktop. Select the note type above, a destination deck, **Tab** as the separator and **Allow HTML in fields**. Map columns 1 to 6 to the fields above, and column 7 to **Tags**. The files have no header rows; the first preview row should start with a card ID such as `FC-01.01.001.01`. Check the preview before importing.
 
 `CardId` is the first field so importing a corrected batch can update matching notes without changing their identity. Choose matching by note type and update existing notes; do not import duplicates as new notes. Keep the same note type across batches. Set the browser sort field to `Front` if desired.
 

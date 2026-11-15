@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-05.03.006.01	How can a shell wrapper accidentally report success after a failed tool?	It can ignore the tool's exit status or replace it with a later successful command's status.	LO-05.03.006	<a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_preference_variables?view=powershell-7.5">Source 1</a>	2026-11-16	cicd section::05 objective::LO-05.03.006 batch::05-02
 FC-05.03.007.01	Should a required security check silently pass when its external service is unavailable?	No. Retry or defer under a defined policy; an unavailable assessment is not a successful assessment.	LO-05.03.007	<a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/retry">Source 1</a>	2026-11-16	cicd section::05 objective::LO-05.03.007 batch::05-02
 FC-05.03.008.01	Why inspect external state before rerunning a timed-out publication job?	The publication may have succeeded before the response was lost; a blind rerun can duplicate or overwrite output.	LO-05.03.008	<a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/retry">Source 1</a>	2026-11-16	cicd section::05 objective::LO-05.03.008 batch::05-02

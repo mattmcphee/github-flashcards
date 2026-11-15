@@ -31,6 +31,6 @@ Each card carries its objective ID and section/batch tags, so coverage can be tr
 
 ## Anki import check
 
-The headers, separator, field mapping and duplicate-update approach were checked against the [Anki text import manual](https://docs.ankiweb.net/manual/importing/text-files). The required note type and templates are documented in [README.md](README.md).
+The separator, field mapping and duplicate-update approach were checked against the [Anki text import manual](https://docs.ankiweb.net/manual/importing/text-files). Header lines were removed because an import preview treated them as card data. The required note type and templates are documented in [README.md](README.md).
 
 An actual import into Anki was not performed because Anki was not available in this environment. Import requires the one-time note type setup described in the guide. These files contain one note and one card per data row, with no media dependencies.

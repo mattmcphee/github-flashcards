@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-13.01.001.01	Which governance decisions belong at enterprise rather than individual repository scope?	Organisation-wide mandatory boundaries, while repository-specific ownership and implementation settings remain delegated where allowed.	LO-13.01.001	<a href="https://docs.github.com/en/enterprise-cloud@latest/admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise">Source 1</a>	2026-11-16	cicd section::13 objective::LO-13.01.001 batch::13-01
 FC-13.01.002.01	What bottleneck can centralised governance create?	A central team may become the approval or implementation queue for every change unless it provides clear delegated controls.	LO-13.01.002	<a href="https://dora.dev/capabilities/platform-engineering/">Source 1</a>	2026-11-16	cicd section::13 objective::LO-13.01.002 batch::13-01
 FC-13.01.003.01	What should accompany delegated repository administration?	Explicit authority limits, an accountable owner and monitoring of changes and exceptions.	LO-13.01.003	<a href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets">Source 1</a>	2026-11-16	cicd section::13 objective::LO-13.01.003 batch::13-01

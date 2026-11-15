@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-07.04.002.01	Why does a collection-scoped Azure build identity warrant special review?	Its granted permissions can reach multiple projects, increasing lateral-movement opportunities.	LO-07.04.002	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/access-tokens?view=azure-devops">Source 1</a>	2026-11-16	cicd section::07 objective::LO-07.04.002 batch::07-02
 FC-07.04.003.01	How can a shared insecure Azure agent pool expose a trusted pipeline?	An untrusted job can leave state or steal host-level credentials later used by trusted work.	LO-07.04.003	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/security/overview?view=azure-devops">Source 1</a>	2026-11-16	cicd section::07 objective::LO-07.04.003 batch::07-02
 FC-07.04.004.01	Why avoid authorising all Azure pipelines to every protected resource?	Any newly created or compromised pipeline could acquire authority it does not need.	LO-07.04.004	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/resources?view=azure-devops">Source 1</a>	2026-11-16	cicd section::07 objective::LO-07.04.004 batch::07-02

@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-13.03.009.01	How should unused Azure classic pipeline capabilities be restricted safely?	Inventory existing consumers first, then apply supported settings disabling new classic build/release creation at the intended scope.	LO-13.03.009	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/security/approach?view=azure-devops">Source 1</a>	2026-11-16	cicd section::13 objective::LO-13.03.009 batch::13-02
 FC-13.04.001.01	Why may native CI/CD audit retention be insufficient for an organisation?	Investigation and evidence needs can outlast product retention; export or stream records to governed storage.	LO-13.04.001	<a href="https://learn.microsoft.com/en-us/azure/devops/organizations/audit/azure-devops-auditing?view=azure-devops">Source 1</a><br><a href="https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/about-the-audit-log-for-your-enterprise">Source 2</a>	2026-11-16	cicd section::13 objective::LO-13.04.001 batch::13-02
 FC-13.04.002.01	What links should a deployment audit trail preserve?	Change and approval records, source revision, build run, artifact digest, target and deploying identity.	LO-13.04.002	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops">Source 1</a>	2026-11-16	cicd section::13 objective::LO-13.04.002 batch::13-02

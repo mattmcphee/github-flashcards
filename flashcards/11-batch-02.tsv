@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-11.03.008.01	What must an emergency deployment process preserve?	Named authority, limited scope, traceability, essential validation and prompt retrospective review.	LO-11.03.008	<a href="https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/security-emergency-access">Source 1</a><br><a href="https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments">Source 2</a>	2026-11-16	cicd section::11 objective::LO-11.03.008 batch::11-02
 FC-11.04.001.01	Which application values should usually vary by deployment environment?	Service endpoints, resource identifiers and operational settings; secret values should use protected delivery mechanisms.	LO-11.04.001	<a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/external-configuration-store">Source 1</a>	2026-11-16	cicd section::11 objective::LO-11.04.001 batch::11-02
 FC-11.04.002.01	How can the same binary run in different environments without rebuilding?	Supply external configuration at deployment or runtime through an authorised mechanism.	LO-11.04.002	<a href="https://learn.microsoft.com/en-us/azure/architecture/patterns/external-configuration-store">Source 1</a>	2026-11-16	cicd section::11 objective::LO-11.04.002 batch::11-02

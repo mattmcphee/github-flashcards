@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-08.04.001.01	How are CodeQL and GitHub code scanning related?	CodeQL is an analysis engine; code scanning presents and manages its findings and supported findings from other tools.	LO-08.04.001	<a href="https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning">Source 1</a>	2026-11-16	cicd section::08 objective::LO-08.04.001 batch::08-02
 FC-08.04.002.01	How do Dependabot alerts differ from version-update pull requests?	Alerts report known vulnerable dependencies; version updates propose newer versions, including changes unrelated to vulnerabilities.	LO-08.04.002	<a href="https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts">Source 1</a><br><a href="https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference">Source 2</a>	2026-11-16	cicd section::08 objective::LO-08.04.002 batch::08-02
 FC-08.04.003.01	What does GitHub dependency review examine in a pull request?	Changes to dependencies, including introduced vulnerabilities and relevant dependency or licence information.	LO-08.04.003	<a href="https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review">Source 1</a>	2026-11-16	cicd section::08 objective::LO-08.04.003 batch::08-02

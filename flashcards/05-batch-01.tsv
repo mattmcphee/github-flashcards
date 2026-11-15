@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-05.01.001.01	Why separate deployment from build responsibilities in a pipeline?	They need different permissions, failure handling and approval boundaries.	LO-05.01.001	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops">Source 1</a>	2026-11-16	cicd section::05 objective::LO-05.01.001 batch::05-01
 FC-05.01.002.01	What makes a pipeline job name useful during failure investigation?	It identifies the component, operation and relevant target, such as API integration tests on Linux.	LO-05.01.002	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/key-pipelines-concepts?view=azure-devops">Source 1</a>	2026-11-16	cicd section::05 objective::LO-05.01.002 batch::05-01
 FC-05.01.003.01	When should a large pipeline job be split?	When portions have independent prerequisites, permissions, reuse or retry boundaries worth exposing.	LO-05.01.003	<a href="https://learn.microsoft.com/en-us/azure/devops/pipelines/process/phases?view=azure-devops">Source 1</a>	2026-11-16	cicd section::05 objective::LO-05.01.003 batch::05-01

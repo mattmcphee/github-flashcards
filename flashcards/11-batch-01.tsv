@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-11.01.001.01	Does a manual production-release decision prevent a team practising continuous delivery?	No. Delivery requires releasability on demand; continuous deployment automates that release decision for qualifying changes.	LO-11.01.001	<a href="https://dora.dev/capabilities/continuous-delivery/">Source 1</a>	2026-11-16	cicd section::11 objective::LO-11.01.001 batch::11-01
 FC-11.01.002.01	What are the essential inputs and outcome of a deployment pipeline?	A known artifact plus authorised target configuration; a verified target state and deployment record.	LO-11.01.002	<a href="https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments">Source 1</a>	2026-11-16	cicd section::11 objective::LO-11.01.002 batch::11-01
 FC-11.01.003.01	What should decide whether a build progresses from test to staging?	Explicit validation and compatibility criteria for that artifact, not merely elapsed time.	LO-11.01.003	<a href="https://learn.microsoft.com/en-us/azure/well-architected/operational-excellence/safe-deployments">Source 1</a>	2026-11-16	cicd section::11 objective::LO-11.01.003 batch::11-01

@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-06.01.001.01	Why should unattended delivery automation have a workload identity rather than a person's account?	Its permissions and lifecycle can be managed for the application without depending on an employee's interactive account.	LO-06.01.001	<a href="https://learn.microsoft.com/en-us/entra/workload-id/workload-identities-overview">Source 1</a>	2026-11-16	cicd section::06 objective::LO-06.01.001 batch::06-01
 FC-06.01.002.01	What is Entra ID's role when an Azure deployment workload requests an access token?	It authenticates the workload under the configured trust and issues a token for the requested resource.	LO-06.01.002	<a href="https://learn.microsoft.com/en-us/entra/workload-id/workload-identity-federation">Source 1</a>	2026-11-16	cicd section::06 objective::LO-06.01.002 batch::06-01
 FC-06.01.003.01	When is a managed identity a good fit for an Azure-hosted build service?	When its host and target support managed identity, letting Azure manage credentials while resource roles grant access.	LO-06.01.003	<a href="https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview">Source 1</a>	2026-11-16	cicd section::06 objective::LO-06.01.003 batch::06-01

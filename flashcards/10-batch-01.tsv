@@ -1,8 +1,3 @@
-#separator:Tab
-#html:true
-#notetype:CI-CD objectives
-#tags column:7
-#columns:CardId	Front	Back	LearningObjectiveIds	Sources	VerifiedOn	Tags
 FC-10.01.001.01	Which outputs should become distributable build artifacts?	The deployable or consumable outputs and required metadata, such as a versioned package, binary or container image.	LO-10.01.001	<a href="https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages">Source 1</a>	2026-11-16	cicd section::10 objective::LO-10.01.001 batch::10-01
 FC-10.01.002.01	Why must a build remain correct when its dependency cache is empty?	A cache is an optimisation; authoritative dependency resolution and restoration must work without it.	LO-10.01.002	<a href="https://docs.github.com/en/actions/concepts/workflows-and-actions/dependency-caching">Source 1</a>	2026-11-16	cicd section::10 objective::LO-10.01.002 batch::10-01
 FC-10.01.003.01	How do immutable artifacts preserve the meaning of successful tests?	The tested content remains identical when published or promoted.	LO-10.01.003	<a href="https://slsa.dev/spec/v1.2/verifying-artifacts">Source 1</a>	2026-11-16	cicd section::10 objective::LO-10.01.003 batch::10-01
