@@ -1,6 +1,6 @@
 # Anki flashcards
 
-Cards are grouped into numbered UTF-8 TSV batches of 20 to 30 notes. Each note generates one question-and-answer card. Objective IDs connect cards to the [learning objectives](../learning-objectives/README.md).
+Cards are grouped into numbered UTF-8 TSV batches of 20 to 30 notes. Each note generates one question-and-answer card. The fourth column tags each card with its [learning objective](../learning-objectives/README.md) ID.
 
 ## Note type and import settings
 
@@ -9,9 +9,6 @@ Create a note type named `CI-CD objectives` by cloning Anki's **Basic** note typ
 1. `CardId`
 2. `Front`
 3. `Back`
-4. `LearningObjectiveIds`
-5. `Sources`
-6. `VerifiedOn`
 
 Keep a single card template. Set its front template to:
 
@@ -25,19 +22,17 @@ Set its back template to:
 {{FrontSide}}
 <hr id="answer">
 {{Back}}
-<hr>
-<small>{{LearningObjectiveIds}}<br>{{Sources}}<br>Checked: {{VerifiedOn}}</small>
 ```
 
-Import each `.tsv` using **File > Import** in Anki desktop. Select the note type above, a destination deck, **Tab** as the separator and **Allow HTML in fields**. Map columns 1 to 6 to the fields above, and column 7 to **Tags**. The files have no header rows; the first preview row should start with a card ID such as `FC-01.01.001.01`. Check the preview before importing.
+Import each `.tsv` using **File > Import** in Anki desktop. Select the note type above, a destination deck, **Tab** as the separator and **Allow HTML in fields**. Map columns 1 to 3 to the fields above, and column 4 to **Tags**. The files have no header rows; the first preview row should start with a card ID such as `FC-01.01.001.01`. Check the preview before importing. If you already created the earlier six-field note type, it can keep its extra fields; update its back template as shown above and leave the extra fields unmapped.
 
 `CardId` is the first field so importing a corrected batch can update matching notes without changing their identity. Choose matching by note type and update existing notes; do not import duplicates as new notes. Keep the same note type across batches. Set the browser sort field to `Front` if desired.
 
-## Source conventions
+## Content notes
 
-Each answer includes direct primary-source links in `Sources` and a review date in `VerifiedOn`. Architecture and scenario answers are design judgements informed by those sources, not claims that a vendor mandates that design. Product-specific answers name their platform; Azure DevOps answers concern Services unless explicitly qualified. Recheck changing product behaviour before using these cards as operational instructions.
+Architecture and scenario answers are design judgements, not claims that a vendor mandates that design. Product-specific answers name their platform; Azure DevOps answers concern Services unless explicitly qualified. Recheck changing product behaviour before using these cards as operational instructions.
 
-Cards use HTML for code and source links. No media files, add-ons or reverse-card templates are required. Space-separated objective IDs and tags are metadata, not part of the recall prompt.
+Cards use HTML for code. No media files, add-ons or reverse-card templates are required. Objective ID tags are metadata, not part of the recall prompt.
 
 Text import requirements: [Anki manual](https://docs.ankiweb.net/manual/importing/text-files), accessed 2026-11-16.
 
